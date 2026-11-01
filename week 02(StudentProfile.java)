@@ -1,0 +1,15 @@
+public class StudentProfile {
+    public static void main(String[] args) {
+
+        System.out.println("--- STUDENT PROFILE ---");
+
+        System.out.println("Name:Okunade Oluwaseun John");
+        System.out.println("Course code: COS 201");
+        System.out.println("Course Title: Computer Programming I");
+        System.out.println("Programme: Your Programme");
+        System.out.println("Week: 2");
+        System.out.println("Topic: Development Environment and First Java Program");
+        System.out.println("Learning Goal: To learn how to write and run Java programs.");
+
+    }
+}
