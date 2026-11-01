@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class AverageCalculator {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        // Accept student's name
+        System.out.print("Enter student's name: ");
+        String name = input.nextLine();
+
+        // Accept three scores
+        System.out.print("Enter first score: ");
+        double score1 = input.nextDouble();
+
+        System.out.print("Enter second score: ");
+        double score2 = input.nextDouble();
+
+        System.out.print("Enter third score: ");
+        double score3 = input.nextDouble();
+
+        // Calculate total and average
+        double total = score1 + score2 + score3;
+        double average = total / 3;
+
+        // Display results
+        System.out.println("\n--- STUDENT RESULT ---");
+        System.out.println("Student Name: " + name);
+        System.out.println("First Score: " + score1);
+        System.out.println("Second Score: " + score2);
+        System.out.println("Third Score: " + score3);
+        System.out.println("Total Score: " + total);
+        System.out.println("Average Score: " + average);
+
+        input.close();
+    }
+}
